@@ -3,6 +3,19 @@
   transform: scaleX(1);
 }
 
+.barra {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.barra span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.barra:hover {
+  border-bottom: 2px solid aliceblue;
+}
 .card-link-unstyled {
   text-decoration: none;
   color: rgb(34, 31, 31);
@@ -38,8 +51,8 @@ footer {
 
 footer img {
 
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 footer a {
@@ -54,8 +67,8 @@ footer a {
 .footer-text {
 
   color: black;
-  font-family: monospace;
-  font-weight: bold;
+  font-family:arial;
+  
 }
 
 .row , iframe {
